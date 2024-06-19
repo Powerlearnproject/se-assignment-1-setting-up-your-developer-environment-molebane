@@ -1,0 +1,152 @@
+Step 1: Select Your Operating System (OS)
+
+Task: Download and Install Windows 11.
+
+    Go to the Windows 11 download page: Windows 11 Download.
+    Download the installation media: Click on "Download Now" under "Create Windows 11 Installation Media."
+    Create a bootable USB drive:
+        Insert a USB flash drive with at least 8GB of space into your computer.
+        Download and run the Windows 11 Media Creation Tool.
+        Follow the prompts to create a bootable USB drive.
+    Boot from the USB drive:
+        Restart your computer and boot from the USB drive (you may need to change the boot order in the BIOS/UEFI settings).
+        Follow the on-screen instructions to install Windows 11.
+
+Step 2: Install a Text Editor or Integrated Development Environment (IDE)
+
+Task: Download and Install Visual Studio Code.
+
+    Go to the Visual Studio Code download page: VS Code Download.
+    Choose the installer for Windows: Click on the appropriate download link for your operating system.
+    Run the installer:
+        Follow the prompts to complete the installation.
+        Choose any additional options or settings as needed.
+
+Step 3: Set Up Version Control System
+
+Task: Install Git and configure it on your local machine. Create a GitHub account, initialize a Git repository, and make your first commit.
+
+    Go to the Git download page: Git Download.
+    Download and install Git: Follow the default settings during installation.
+    Configure Git identity:
+        Open Git Bash.
+        Run the following commands:
+
+        bash
+
+    git config --global user.name "Molebane"
+    git config --global user.email "molebanemolebane@gmail.com"
+
+Create a GitHub account: GitHub.
+Create a new repository:
+
+    Go to your GitHub profile and click "New Repository."
+    Follow the prompts to set up your repository.
+
+Clone the repository to your local machine:
+
+bash
+
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+
+Create a new file, add it to the repository, and commit your changes:
+
+bash
+
+    echo "# My First Commit" > README.md
+    git add README.md
+    git commit -m "Initial commit"
+    git push origin main
+
+Step 4: Install Necessary Programming Languages and Runtimes
+
+Task: Install Python.
+
+    Go to the Python download page: Python Download.
+    Download the latest version of Python for Windows.
+    Run the installer:
+        Check the option "Add Python to PATH."
+        Follow the prompts to complete the installation.
+    Verify the installation:
+        Open Command Prompt and type:
+
+        bash
+
+        python --version
+
+Step 5: Install Package Managers
+
+Task: Install pip.
+
+    Verify the installation of pip:
+        Open Command Prompt and type:
+
+        bash
+
+        pip --version
+
+Step 6: Configure a Database (MySQL)
+
+Task: Download and install MySQL.
+
+    Go to the MySQL download page: MySQL Installer.
+    Download the MySQL Installer for Windows.
+    Run the installer:
+        Choose the "Developer Default" setup.
+        Follow the prompts to complete the installation.
+        Configure the root account and password.
+    Verify the installation:
+        Open MySQL Command Line Client.
+        Log in with your root password.
+
+Step 7: Set Up Development Environments and Virtualization (Optional)
+
+Task: Consider using Docker.
+
+    Go to the Docker download page: Docker Desktop.
+    Download and install Docker Desktop for Windows.
+    Follow the prompts to complete the installation.
+    Verify the installation:
+        Open Command Prompt and type:
+
+        bash
+
+        docker --version
+
+Step 8: Explore Extensions and Plugins
+
+Task: Explore available extensions for Visual Studio Code.
+
+    Open Visual Studio Code.
+    Go to the Extensions view:
+        Click the Extensions icon in the Activity Bar on the side of the window.
+    Search for and install extensions:
+        Python (by Microsoft)
+        GitLens
+        Prettier - Code formatter
+        ESLint
+
+Step 9: Document Your Setup
+
+Task: Create a comprehensive document outlining the steps taken to set up your developer environment.
+
+    Open a new document in your preferred word processor.
+    Write detailed, step-by-step instructions for each task:
+        Include screenshots where necessary.
+        Include configurations and customizations.
+        Document any troubleshooting steps encountered.
+    Save your document.
+
+Deliverables
+
+    Setup Documentation: A document detailing the setup process.
+    GitHub Repository: A repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).
+    Reflection: A section in your documentation reflecting on the challenges faced and solutions employed during the setup process.
+
+Additional Tips
+
+    Backup Your System: Before making major changes, it’s always a good idea to back up your system.
+    Use Virtual Machines: If you want to experiment without affecting your main system, consider using virtual machines (e.g., VirtualBox).
+    Stay Updated: Regularly check for updates to your tools and dependencies to keep your development environment secure and efficient.
+    Join Communities: Engage with communities (e.g., Stack Overflow, GitHub Discussions) for support and to stay current with best practices.
